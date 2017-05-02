@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: rgba(60, 60, 60, 1);
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1120px;
+}
+
+.white {
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+}
+
+main {
+    margin-top: 45px;
+}
+
+section {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+section .section-header {
+    
+}
+
+section .section-subheader {
+    
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid rgba(55, 235, 224, 1);
+    color: rgba(55, 235, 224, 1);
+    line-height: 40px;
+    padding: 0 20px;
+    border-radius: 5px;
+}
