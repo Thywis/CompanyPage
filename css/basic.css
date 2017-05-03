@@ -1,8 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
     color: rgba(60, 60, 60, 1);
+    font-size: 16px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+a, a:visited {
+    text-decoration: none;
 }
 
 .wrapper {
@@ -13,10 +19,11 @@ body {
 .white {
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
 main {
-    margin-top: 45px;
+    
 }
 
 section {
@@ -34,10 +41,21 @@ section .section-subheader {
 }
 
 button {
+    transition: all 0.2s;
     background-color: transparent;
+    font-size: 16px;
     border: 1px solid rgba(55, 235, 224, 1);
     color: rgba(55, 235, 224, 1);
     line-height: 40px;
-    padding: 0 20px;
-    border-radius: 5px;
+    padding: 0 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+button:active {
+    background-color: rgba(255, 255, 255, 0.3);
 }
