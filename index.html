@@ -14,23 +14,23 @@
                 </div>
                 <ul id="page-nav">
                     <li>
-                        <a href="#landing-section">Home</a>
+                        <a data-href="#landing-section">Home</a>
                     </li>
                     <li>
-                        <a href="#technology-section">Technology</a>
+                        <a data-href="#technology-section">Technology</a>
                     </li>
                     <li>
-                        <a href="#core-value-section">Values</a>
+                        <a data-href="#core-value-section">Values</a>
                     </li>
                     <li>
-                        <a href="#team-section">Team</a>
+                        <a data-href="#team-section">Team</a>
                     </li>
                 </ul>
             </div>
         </header>
         <main>
             <section id="landing-section" style="background-image: url('img/landing.jpg')">
-                <div class="wrapper white">
+                <div class="wrapper white center">
                     <h1 id="landing-title">Thywis <span style="font-weight: 100">Your Wisdom</span></h1>
                     <p>
                         Create consumer products with stunning AI experience, taking care of every
@@ -40,9 +40,60 @@
                 </div>
             </section>
             <section id="technology-section">
-                <div class="wrapper">
+                <div class="wrapper center">
+                    <h2 class="section-header">Technology</h2>
+                    <div class="divider"></div>
+                    <p id="technology-intro">
+                        We realized that the difference between people are greater than a set of
+                        parameters. We developed IAI(Individualize Artificial Intelligence)
+                        technology, a combination of individualized dynamic model and domain
+                        specific model. Each IAI agent only serves and constantly learns from its
+                        master, being as responsive as a secretary.
+                    </p>
+                    <div id="iai-modules" class="row">
+                        <div class="col-6 center">
+                            <h3>Individualized Model</h3>
+                            <div class="divider"></div>
+                            <p>
+                                A Model that is individualized to the only user. It is specified
+                                to be with, learn from, and support for that only user, helping
+                                solving individual problems.
+                            </p>
+                        </div>
+                        <div class="col-6 center">
+                            <h3>Dynamic Universal Model</h3>
+                            <div class="divider"></div>
+                            <p>
+                                We also build model that is universal to discover the trends of the
+                                world. It will learn from every user and solve the commonly existed
+                                problems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="feature-section" style="background-image: url(img/feature.jpg)">
+                <div class="wrapper white center">
                     <h2 class="section-header">Products features</h2>
-                    <h4 class="section-subheader">individualized, self-adaptive, customizable, secure</h4>
+                    <div class="divider"></div>
+                    <ul id="features-list">
+                        <li>
+                            <img src="img/individualized.png" />
+                            <h3>Individualized</h3>
+                        </li>
+                        <li>
+                            <img src="img/adaptive.png" />
+                            <h3>Self-Adaptive</h3>
+                        </li>
+                        <li>
+                            <img src="img/customizable.png" />
+                            <h3>Customizable</h3>
+                        </li>
+                        <li>
+                            <img src="img/secure.png" />
+                            <h3>Secure</h3>
+                        </li>
+                    </ul>
                     <p>
                         We plan to build a series of IAI product that make your life easier. Our first
                         product is a individualized AI Inbox client that separates emails you care about
@@ -76,7 +127,7 @@
                     </ul>
                 </div>
             </section>
-            <section id="team">
+            <section id="team-section">
                 <div class="wrapper">
                     <h2 class="section-header">Out Team</h2>
                     <h4 class="section-subheader">A team forced on Artificial Intelligence, user
@@ -84,5 +135,6 @@
                 </div>
             </section>
         </main>
+        <script src="js/landing.js"></script>
     </body>
 </html>

@@ -1,14 +1,24 @@
 body {
     margin: 0;
     padding: 0;
-    color: rgba(60, 60, 60, 1);
-    font-size: 16px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: rgba(120, 120, 120, 1);
+    font-size: 14px;
+    font-family: Lato;
     font-weight: 200;
 }
 
 a, a:visited {
     text-decoration: none;
+}
+
+p {
+    font-weight: 100;
+    line-height: 24px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
 }
 
 .wrapper {
@@ -20,6 +30,23 @@ a, a:visited {
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.center {
+    text-align: center;
+}
+
+.divider {
+    height: 1.5px;
+    width: 50px;
+    background-color: rgba(120, 120, 120, 1);
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.white .divider {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
 main {
@@ -58,4 +85,12 @@ button:hover {
 
 button:active {
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+.row {
+    display: flex;
+}
+
+.row .col-6 {
+    width: 50%;
 }

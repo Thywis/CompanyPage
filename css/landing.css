@@ -1,15 +1,51 @@
-#landing-section {
-    padding: 250px 0;
-    text-align: center;
+.divider {
+    background-color: rgba(131, 228, 197, 1);
 }
 
+#landing-section {
+    padding: 250px 0;
+}
 
 #landing-title {
     font-size: 40px;
     font-weight: 400;
     letter-spacing: 1px;
+    font-family: "Helvetica Neue";
 }
 
 #explore-button {
     margin-top: 15px;
+}
+
+#technology-section {
+    padding: 120px 0;
+}
+
+#technology-intro {
+    padding: 0 100px;
+}
+
+#iai-modules {
+    margin-top: 100px;
+}
+
+#iai-modules .col-6 {
+    padding: 0 100px;
+}
+
+#feature-section {
+    padding: 100px 0;
+}
+
+#features-list {
+    display: flex;
+    list-style: none;
+}
+
+#features-list li {
+    width: 25%;
+}
+
+#features-list li img {
+    width: 120px;
 }
